@@ -1,4 +1,5 @@
 ﻿<UserControl x:Class="SpaceVikingsGUI.Views.StoreView"
+             x:Name="StoreWindow"
              xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
              xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
              xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
@@ -103,10 +104,15 @@
                         </StackPanel>
                     </StackPanel>
                 </StackPanel>
+                <Button Content="Close Store"
+                        Command="{Binding CloseWindowCommand}" 
+                        CommandParameter="{Binding ElementName=StoreWindow}"
+                />
 
             </StackPanel>
 
             <StackPanel Width="101" HorizontalAlignment="Right" Background="black"></StackPanel>
+
         </StackPanel>
     </Grid>
 </UserControl>

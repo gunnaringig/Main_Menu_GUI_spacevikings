@@ -1,1 +1,7 @@
-[{"ID":1,"Email":"test","Password":"test"},{"ID":272800020,"Email":null,"Password":null},{"ID":51036003,"Email":"gunnar","Password":"1234"}]
+[
+  {
+    "ID": 1,
+    "Email": "test",
+    "Password": "test"
+  }
+]

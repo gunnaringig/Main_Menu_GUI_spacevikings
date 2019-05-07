@@ -7,6 +7,7 @@ namespace SpaceVikingsGUI.Commands
     {
         private readonly Action _targetExecuteMethod;
         private readonly Func<bool> _targetCanExecuteMethod;
+        private Action<object> closeWin;
 
         public RelayCommand(Action executeMethod)
         {
@@ -17,6 +18,11 @@ namespace SpaceVikingsGUI.Commands
         {
             _targetExecuteMethod = executeMethod;
             _targetCanExecuteMethod = canExecuteMethod;
+        }
+
+        public RelayCommand(Action<object> closeWin)
+        {
+            this.closeWin = closeWin;
         }
 
         public void RaiseCanExecuteChanged()

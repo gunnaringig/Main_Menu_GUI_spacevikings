@@ -1,4 +1,5 @@
 ﻿<UserControl x:Class="SpaceVikingsGUI.Views.MainView"
+             x:Name="MainWindow"
              xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
              xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
              xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
@@ -28,6 +29,7 @@
         </Grid.RowDefinitions>
 
 
+
         <Frame x:Name="Main" NavigationUIVisibility="Hidden"></Frame>
         <DockPanel>
             <StackPanel DockPanel.Dock="Top" HorizontalAlignment="Left" Width="101" Height="394" VerticalAlignment="Top" Background="black">
@@ -37,10 +39,14 @@
                 <!--<Button Content="Login" Command="{Binding openLogin}"></Button>-->
             </StackPanel>
             <StackPanel DockPanel.Dock="Bottom" Width="101" VerticalAlignment="Bottom" HorizontalAlignment="Left" Height="50" Background="Black" >
-                <Button Content="Exit"  VerticalAlignment="Bottom"/>
+                <Button Content="Exit"  VerticalAlignment="Bottom"
+                        IsCancel="True"
+                        Command="{Binding CloseApplicationCommand, Mode=OneWay}" 
+                        CommandParameter="{Binding ElementName=MainWindow}"/>
             </StackPanel>
         </DockPanel>
 
 
     </Grid>
+
 </UserControl>
