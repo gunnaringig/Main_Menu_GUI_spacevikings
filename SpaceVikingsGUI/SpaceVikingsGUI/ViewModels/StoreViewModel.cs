@@ -3,7 +3,6 @@ using System.Collections.ObjectModel;
 using System.ComponentModel;
 using System.Linq;
 using System.Windows;
-using SpaceVikingsGUI.CloseWindow;
 using SpaceVikingsGUI.Commands;
 using SpaceVikingsGUI.Navigation;
 using SpaceVikingsGUI.Views;
@@ -14,6 +13,7 @@ namespace SpaceVikingsGUI.ViewModels
     {
         private readonly INavigation _navigation;
         public event PropertyChangedEventHandler PropertyChanged;
+
         public RelayCommand CloseStoreWindowCommand { get; set; }
 
 

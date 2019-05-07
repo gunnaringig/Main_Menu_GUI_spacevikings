@@ -49,7 +49,7 @@
 
         <Grid Grid.Row="2" Grid.Column="2" ColumnSpan="3">
             <Grid>
-                <TextBlock HorizontalAlignment="Center" Margin="10" Text="{Binding ErrorMessage}" FontSize="20" Foreground="DarkRed"/>
+                <TextBlock HorizontalAlignment="Center"  Margin="10" Text="{Binding ErrorMessage}" FontSize="20" Foreground="DarkRed"/>
             </Grid>
         </Grid>
 
@@ -63,7 +63,7 @@
 
         <Grid Grid.Column="1" Grid.Row="1" Grid.ColumnSpan="5">
             <Grid>
-                <TextBlock Foreground="#FF616161"  HorizontalAlignment="Center" VerticalAlignment="Center" FontSize="70" Style="{StaticResource MaterialDesignHeadlineTextBlock}"/>
+                <TextBlock Foreground="#FF616161" Text="SPACE VIKINGS" HorizontalAlignment="Center" VerticalAlignment="Center" FontSize="70" Style="{StaticResource MaterialDesignHeadlineTextBlock}"/>
             </Grid>
         </Grid>
 

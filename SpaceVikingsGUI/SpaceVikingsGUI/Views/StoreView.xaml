@@ -35,7 +35,7 @@
                     <StackPanel Orientation="Horizontal" Height="110">
                         <StackPanel Width="220"  Orientation="Horizontal">
                             <StackPanel Width="110">
-                                <Image Source="Inventory/helmet.png"></Image>
+                                <!--<Image Source="Inventory/helmet.png"></Image>-->
                             </StackPanel>
                             <StackPanel Width="100">
                                 <TextBlock Text="Helmet" FontSize="20" HorizontalAlignment="Center" ></TextBlock>
@@ -46,7 +46,7 @@
 
                         <StackPanel Width="220" Orientation="Horizontal">
                             <StackPanel Width="110">
-                                <Image Source="Inventory/Gloves.png"></Image>
+                                <!--<Image Source="Inventory/Gloves.png"></Image>-->
                             </StackPanel>
                             <StackPanel Width="100">
                                 <TextBlock Text="Gloves" FontSize="20" HorizontalAlignment="Center" ></TextBlock>
@@ -59,7 +59,7 @@
                     <StackPanel Orientation="Horizontal" Height="110">
                         <StackPanel Width="220"  Orientation="Horizontal">
                             <StackPanel Width="110">
-                                <Image Source="Inventory/helmet.png"></Image>
+                                <!--<Image Source="Inventory/helmet.png"></Image>-->
                             </StackPanel>
                             <StackPanel Width="100">
                                 <TextBlock Text="Helmet" FontSize="20" HorizontalAlignment="Center" ></TextBlock>
@@ -70,7 +70,7 @@
 
                         <StackPanel Width="220" Orientation="Horizontal">
                             <StackPanel Width="110">
-                                <Image Source="Inventory/Gloves.png"></Image>
+                                <!--<Image Source="Inventory/Gloves.png"></Image>-->
                             </StackPanel>
                             <StackPanel Width="100">
                                 <TextBlock Text="Gloves" FontSize="20" HorizontalAlignment="Center" ></TextBlock>
@@ -83,7 +83,7 @@
                     <StackPanel Orientation="Horizontal" Height="110">
                         <StackPanel Width="220"  Orientation="Horizontal">
                             <StackPanel Width="110">
-                                <Image Source="Inventory/helmet.png"></Image>
+                                <!--<Image Source="Inventory/helmet.png"></Image>-->
                             </StackPanel>
                             <StackPanel Width="100">
                                 <TextBlock Text="Helmet" FontSize="16" HorizontalAlignment="Center" ></TextBlock>
@@ -94,7 +94,7 @@
 
                         <StackPanel Width="220" Orientation="Horizontal">
                             <StackPanel Width="110">
-                                <Image Source="Inventory/Gloves.png"></Image>
+                                <!--<Image Source="Inventory/Gloves.png"></Image>-->
                             </StackPanel>
                             <StackPanel Width="100">
                                 <TextBlock Text="Gloves" FontSize="16" HorizontalAlignment="Center" ></TextBlock>
