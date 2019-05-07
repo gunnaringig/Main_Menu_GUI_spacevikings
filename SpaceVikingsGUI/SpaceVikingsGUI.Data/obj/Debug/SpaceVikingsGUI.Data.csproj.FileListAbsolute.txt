@@ -1,0 +1,6 @@
+C:\Users\Blank\Desktop\SpaceVikingsGUI\SpaceVikingsGUI\SpaceVikingsGUI.Data\bin\Debug\SpaceVikingsGUI.Data.dll
+C:\Users\Blank\Desktop\SpaceVikingsGUI\SpaceVikingsGUI\SpaceVikingsGUI.Data\bin\Debug\SpaceVikingsGUI.Data.pdb
+C:\Users\Blank\Desktop\SpaceVikingsGUI\SpaceVikingsGUI\SpaceVikingsGUI.Data\obj\Debug\SpaceVikingsGUI.Data.csprojAssemblyReference.cache
+C:\Users\Blank\Desktop\SpaceVikingsGUI\SpaceVikingsGUI\SpaceVikingsGUI.Data\obj\Debug\SpaceVikingsGUI.Data.csproj.CoreCompileInputs.cache
+C:\Users\Blank\Desktop\SpaceVikingsGUI\SpaceVikingsGUI\SpaceVikingsGUI.Data\obj\Debug\SpaceVikingsGUI.Data.dll
+C:\Users\Blank\Desktop\SpaceVikingsGUI\SpaceVikingsGUI\SpaceVikingsGUI.Data\obj\Debug\SpaceVikingsGUI.Data.pdb
