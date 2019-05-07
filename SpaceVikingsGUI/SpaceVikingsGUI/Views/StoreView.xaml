@@ -104,14 +104,20 @@
                         </StackPanel>
                     </StackPanel>
                 </StackPanel>
-                <Button Content="Close Store"
-                        Command="{Binding CloseWindowCommand}" 
-                        CommandParameter="{Binding ElementName=StoreWindow}"
-                />
+                <Grid>
+                    <Button Content="Close Store"
+                            Command="{Binding CloseWindowCommand}" 
+                            CommandParameter="{Binding ElementName=StoreWindow}"
+                    />
+                </Grid>
+
 
             </StackPanel>
 
-            <StackPanel Width="101" HorizontalAlignment="Right" Background="black"></StackPanel>
+            <StackPanel Width="101" HorizontalAlignment="Right" Background="black">
+                <Button Content="Button" d:LayoutOverrides="Height"
+                       />
+            </StackPanel>
 
         </StackPanel>
     </Grid>

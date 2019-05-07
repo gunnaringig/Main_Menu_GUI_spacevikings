@@ -17,16 +17,18 @@ namespace SpaceVikingsGUI.ViewModels
         public StoreViewModel(INavigation navigation)
         {
             _navigation = navigation;
-            CloseWindowCommand = new RelayCommand(CloseWin);
+            this.CloseWindowCommand = new RelayCommand<Window>(this.CloseWin);
         }
 
         public event PropertyChangedEventHandler PropertyChanged;
-        public RelayCommand CloseWindowCommand { get; set; }
+        public RelayCommand<Window> CloseWindowCommand { get; private set; }
 
-        public void CloseWin(object obj)
+        private void CloseWin(Window window)
         {
-            Window win = obj as Window;
-            win.Close();
+            if (window != null)
+            {
+                window.Close();
+            }
         }
     }
 }
