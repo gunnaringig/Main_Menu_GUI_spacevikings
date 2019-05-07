@@ -93,6 +93,11 @@
                         </StackPanel>
                     </StackPanel>
                 </StackPanel>
+                <Grid>
+                    <Button Content="Close Inventory"
+                            Command="{Binding CloseInventoryWindowCommand}" 
+                    />
+                </Grid>
 
             </StackPanel>
 

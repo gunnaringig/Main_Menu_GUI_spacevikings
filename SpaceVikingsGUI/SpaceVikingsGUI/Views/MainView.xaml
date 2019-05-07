@@ -36,7 +36,6 @@
                 <Button Content="Play" Command="{Binding startGame}"></Button>
                 <Button Content="Store" Command="{Binding OpenStoreView}"></Button>
                 <Button Content="Char" Command="{Binding OpenInventoryView}"></Button>
-                <!--<Button Content="Login" Command="{Binding openLogin}"></Button>-->
             </StackPanel>
             <StackPanel DockPanel.Dock="Bottom" Width="101" VerticalAlignment="Bottom" HorizontalAlignment="Left" Height="50" Background="Black" >
                 <Button Content="Exit"  VerticalAlignment="Bottom"

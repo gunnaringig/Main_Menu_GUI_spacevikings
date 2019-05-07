@@ -13,22 +13,23 @@ namespace SpaceVikingsGUI.ViewModels
     public class StoreViewModel : INotifyPropertyChanged, IViewModel
     {
         private readonly INavigation _navigation;
+        public event PropertyChangedEventHandler PropertyChanged;
+        public RelayCommand CloseStoreWindowCommand { get; set; }
+
 
         public StoreViewModel(INavigation navigation)
         {
             _navigation = navigation;
-            this.CloseWindowCommand = new RelayCommand<Window>(this.CloseWin);
+
+            CloseStoreWindowCommand = new RelayCommand(OnStoreWindowClose);
         }
 
-        public event PropertyChangedEventHandler PropertyChanged;
-        public RelayCommand<Window> CloseWindowCommand { get; private set; }
-
-        private void CloseWin(Window window)
+        private void OnStoreWindowClose()
         {
-            if (window != null)
-            {
-                window.Close();
-            }
+            Application.Current.Windows
+                .OfType<Window>()
+                .FirstOrDefault(window => window.IsActive)
+                ?.Close();
         }
     }
 }

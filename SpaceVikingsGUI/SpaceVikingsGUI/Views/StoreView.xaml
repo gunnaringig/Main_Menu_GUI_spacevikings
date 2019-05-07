@@ -106,8 +106,7 @@
                 </StackPanel>
                 <Grid>
                     <Button Content="Close Store"
-                            Command="{Binding CloseWindowCommand}" 
-                            CommandParameter="{Binding ElementName=StoreWindow}"
+                            Command="{Binding CloseStoreWindowCommand}" 
                     />
                 </Grid>
 
