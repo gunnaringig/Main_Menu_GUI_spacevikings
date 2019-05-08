@@ -113,10 +113,7 @@
 
             </StackPanel>
 
-            <StackPanel Width="101" HorizontalAlignment="Right" Background="black">
-                <Button Content="Button" d:LayoutOverrides="Height"
-                       />
-            </StackPanel>
+            <StackPanel Width="101" HorizontalAlignment="Right" Background="black"/>
 
         </StackPanel>
     </Grid>

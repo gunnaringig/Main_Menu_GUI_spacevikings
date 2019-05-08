@@ -16,36 +16,44 @@
              Background="{DynamicResource MaterialDesignPaper}"
              FontFamily="{DynamicResource MaterialDesignFont}"
              mc:Ignorable="d"
-             d:DesignHeight="600" d:DesignWidth="1024">
-    <Grid>
+             d:DesignHeight="600" Width="94">
+
+    <Grid HorizontalAlignment="Left" Width="1027" Margin="0,0,-933,0">
+
         <Grid.ColumnDefinitions>
             <ColumnDefinition Width="100"/>
-            <ColumnDefinition Width="400"/>
-            <ColumnDefinition Width="10"/>
-            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="924"/>
+            <ColumnDefinition Width="0"/>
+            <ColumnDefinition Width="0*"/>
         </Grid.ColumnDefinitions>
         <Grid.RowDefinitions>
-            <RowDefinition Height="*"/>
+            <RowDefinition Height="600"/>
+            <RowDefinition Height="0*"/>
         </Grid.RowDefinitions>
+        <Grid.Background>
+            <LinearGradientBrush EndPoint="3,1" StartPoint="2,0" SpreadMethod="Reflect">
+                <GradientStop Color="#FF616161" Offset="0"/>
+                <GradientStop Color="#FFFDD835" Offset="0.7"/>
+            </LinearGradientBrush>
+        </Grid.Background>
 
 
 
-        <Frame x:Name="Main" NavigationUIVisibility="Hidden"></Frame>
-        <DockPanel>
-            <StackPanel DockPanel.Dock="Top" HorizontalAlignment="Left" Width="101" Height="394" VerticalAlignment="Top" Background="black">
+
+        <DockPanel Margin="0,0,903,0" Grid.ColumnSpan="2">
+            <StackPanel DockPanel.Dock="Top" HorizontalAlignment="Left" Width="100" Height="90" VerticalAlignment="Top" Background="black">
                 <Button Content="Play" Command="{Binding startGame}"></Button>
                 <Button Content="Store" Command="{Binding OpenStoreView}"></Button>
                 <Button Content="Char" Command="{Binding OpenInventoryView}"></Button>
             </StackPanel>
-            <StackPanel DockPanel.Dock="Bottom" Width="101" VerticalAlignment="Bottom" HorizontalAlignment="Left" Height="50" Background="Black" >
+            <StackPanel DockPanel.Dock="Bottom" Width="100" VerticalAlignment="Bottom" HorizontalAlignment="Left" Height="32" Background="Black" >
                 <Button Content="Exit"  VerticalAlignment="Bottom"
-                        IsCancel="True"
                         Command="{Binding CloseApplicationCommand, Mode=OneWay}" 
                         CommandParameter="{Binding ElementName=MainWindow}"/>
             </StackPanel>
         </DockPanel>
-
-
+        <DockPanel Margin="10,0" Grid.Column="1">
+            <Image Source="../background2.png" Width="901"/>
+        </DockPanel>
     </Grid>
-
 </UserControl>
