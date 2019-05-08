@@ -55,9 +55,7 @@
 
         <Grid Grid.Row="0" Grid.Column="6">
             <StackPanel Orientation="Horizontal" HorizontalAlignment="Right">
-                <Button Command="{Binding CloseApplicationCommand}" Style="{StaticResource MaterialDesignFloatingActionMiniAccentButton}" Width="50" Height="50" Background="{x:Null}" BorderBrush="{x:Null}" Foreground="DarkRed">
-                    <materialDesign:PackIcon Width="30" Height="30" Kind="Close"/>
-                </Button>
+                <Button Command="{Binding CloseApplicationCommand}" Style="{StaticResource MaterialDesignFloatingActionMiniAccentButton}" Width="50" Height="50" Background="{x:Null}" BorderBrush="{x:Null}" Foreground="DarkRed"/>
             </StackPanel>
         </Grid>
 
