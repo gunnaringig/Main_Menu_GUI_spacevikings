@@ -22,11 +22,11 @@
 
         <StackPanel Background="Black" Height="566" Width="100" VerticalAlignment="Center" HorizontalAlignment="Left" Margin="0,0,0,34">
             <Button Content="Play" Command="{Binding startGame}"
-                    Style="{StaticResource MaterialDesignRaisedDarkButton}" Margin="3"></Button>
+                    Style="{StaticResource MaterialDesignRaisedDarkButton}" Margin="1"></Button>
             <Button Content="Store" Command="{Binding OpenStoreView}"
-                    Style="{StaticResource MaterialDesignRaisedDarkButton}" Margin="3"></Button>
+                    Style="{StaticResource MaterialDesignRaisedDarkButton}" Margin="1"></Button>
             <Button Content="Char" Command="{Binding OpenInventoryView}"
-                    Style="{StaticResource MaterialDesignRaisedDarkButton}" Margin="3"></Button>
+                    Style="{StaticResource MaterialDesignRaisedDarkButton}" Margin="1"></Button>
             
         </StackPanel>
         <StackPanel Background="Black" Height="600" Width="924" VerticalAlignment="Center" HorizontalAlignment="Right">
@@ -36,9 +36,8 @@
             <Button Content="Exit"  VerticalAlignment="Bottom"
                     Command="{Binding CloseApplicationCommand, Mode=OneWay}" 
                     CommandParameter="{Binding ElementName=MainWindow}"
-                    Style="{DynamicResource MaterialDesignRaisedAccentButton}"/>
+                    Style="{StaticResource MaterialDesignRaisedAccentButton}"/>
         </StackPanel>
     </Grid>
-
 
 </UserControl>
