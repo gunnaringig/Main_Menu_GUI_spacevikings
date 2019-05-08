@@ -20,38 +20,32 @@
     <Grid Background="White">
 
         <StackPanel Orientation="Horizontal">
-            <StackPanel HorizontalAlignment="Left" Width="101" Background="Black">
+            <StackPanel HorizontalAlignment="Left" Width="267" Background="Black">
 
             </StackPanel>
 
-            <StackPanel Width="438" HorizontalAlignment="Center">
+            <StackPanel Width="500" HorizontalAlignment="Center">
                 <StackPanel Height="80"></StackPanel>
 
                 <StackPanel>
-                    <TextBlock Text="Store" Height="35" FontSize="25" HorizontalAlignment="Center"></TextBlock>
+                    <TextBlock Text="Store" Height="29" FontSize="25" HorizontalAlignment="Center" Margin="222,0,10,0" Width="268"/>
                 </StackPanel>
 
                 <StackPanel Background="White" >
                     <StackPanel Orientation="Horizontal" Height="110">
                         <StackPanel Width="220"  Orientation="Horizontal">
                             <StackPanel Width="110">
-                                <!--<Image Source="Inventory/helmet.png"></Image>-->
+                                
                             </StackPanel>
-                            <StackPanel Width="100">
-                                <TextBlock Text="Helmet" FontSize="20" HorizontalAlignment="Center" ></TextBlock>
-                                <TextBlock Text="Makes you look" FontSize="12" HorizontalAlignment="Center" ></TextBlock>
-                                <TextBlock Text="really cool!" FontSize="12" HorizontalAlignment="Center" ></TextBlock>
-                            </StackPanel>
+                            <Image Source="../sword_test.png"></Image>
                         </StackPanel>
 
                         <StackPanel Width="220" Orientation="Horizontal">
                             <StackPanel Width="110">
-                                <!--<Image Source="Inventory/Gloves.png"></Image>-->
+                               
                             </StackPanel>
                             <StackPanel Width="100">
-                                <TextBlock Text="Gloves" FontSize="20" HorizontalAlignment="Center" ></TextBlock>
-                                <TextBlock Text="Nice to have" FontSize="12" HorizontalAlignment="Center" ></TextBlock>
-                                <TextBlock Text="when its cold" FontSize="12" HorizontalAlignment="Center" ></TextBlock>
+                                <Image Source="../glove_test.png"></Image>
                             </StackPanel>
                         </StackPanel>
                     </StackPanel>
@@ -61,21 +55,28 @@
                             <StackPanel Width="110">
                                 <!--<Image Source="Inventory/helmet.png"></Image>-->
                             </StackPanel>
-                            <StackPanel Width="100">
-                                <TextBlock Text="Helmet" FontSize="20" HorizontalAlignment="Center" ></TextBlock>
-                                <TextBlock Text="Makes you look" FontSize="12" HorizontalAlignment="Center" ></TextBlock>
-                                <TextBlock Text="really cool!" FontSize="12" HorizontalAlignment="Center" ></TextBlock>
+                            <StackPanel Width="100" >
+                                <Button Height="110" Width="100" Click="Button_Click">
+                                    <Button.Template>
+                                        <ControlTemplate>
+                                            <Image Source="../helmet_test.png"></Image>
+                                        </ControlTemplate>
+                                    </Button.Template>
+                                </Button>
+                                <Image Source="../helmet_test.png"></Image>
                             </StackPanel>
                         </StackPanel>
 
-                        <StackPanel Width="220" Orientation="Horizontal">
+                        <StackPanel Width="220" Orientation="Horizontal" >
                             <StackPanel Width="110">
                                 <!--<Image Source="Inventory/Gloves.png"></Image>-->
                             </StackPanel>
-                            <StackPanel Width="100">
-                                <TextBlock Text="Gloves" FontSize="20" HorizontalAlignment="Center" ></TextBlock>
-                                <TextBlock Text="Nice to have" FontSize="12" HorizontalAlignment="Center" ></TextBlock>
-                                <TextBlock Text="when its cold" FontSize="12" HorizontalAlignment="Center" ></TextBlock>
+                            <StackPanel Width="100" Background="Black">
+                                <TextBlock Text="Gloves" FontSize="20" HorizontalAlignment="Center" Background="WhiteSmoke"></TextBlock>
+                                <TextBlock Text="Nice to have" FontSize="12" HorizontalAlignment="Center" Background="WhiteSmoke"></TextBlock>
+                                <TextBlock Text="when its cold" FontSize="12" HorizontalAlignment="Center" Background="WhiteSmoke"></TextBlock>
+                                <TextBlock Text="REPLACE W PIC" FontSize="12" HorizontalAlignment="Center" Background="WhiteSmoke"></TextBlock>
+
                             </StackPanel>
                         </StackPanel>
                     </StackPanel>
@@ -85,10 +86,12 @@
                             <StackPanel Width="110">
                                 <!--<Image Source="Inventory/helmet.png"></Image>-->
                             </StackPanel>
-                            <StackPanel Width="100">
-                                <TextBlock Text="Helmet" FontSize="16" HorizontalAlignment="Center" ></TextBlock>
-                                <TextBlock Text="Makes you look" FontSize="12" HorizontalAlignment="Center" ></TextBlock>
-                                <TextBlock Text="really cool!" FontSize="12" HorizontalAlignment="Center" ></TextBlock>
+                            <StackPanel Width="100" Background="Black">
+                                <TextBlock Text="Helmet" FontSize="16" HorizontalAlignment="Center" Background="WhiteSmoke" ></TextBlock>
+                                <TextBlock Text="Makes you look" FontSize="12" HorizontalAlignment="Center" Background="WhiteSmoke"></TextBlock>
+                                <TextBlock Text="really cool!" FontSize="12" HorizontalAlignment="Center" Background="WhiteSmoke" ></TextBlock>
+                                <TextBlock Text="REPLACE W PIC" FontSize="12" HorizontalAlignment="Center" Background="WhiteSmoke"></TextBlock>
+
                             </StackPanel>
                         </StackPanel>
 
@@ -96,10 +99,10 @@
                             <StackPanel Width="110">
                                 <!--<Image Source="Inventory/Gloves.png"></Image>-->
                             </StackPanel>
-                            <StackPanel Width="100">
-                                <TextBlock Text="Gloves" FontSize="16" HorizontalAlignment="Center" ></TextBlock>
-                                <TextBlock Text="Nice to have" FontSize="12" HorizontalAlignment="Center" ></TextBlock>
-                                <TextBlock Text="when its cold" FontSize="12" HorizontalAlignment="Center" ></TextBlock>
+                            <StackPanel Width="100" Background="Black">
+                                <TextBlock Text="Gloves" FontSize="16" HorizontalAlignment="Center" Background="WhiteSmoke" ></TextBlock>
+                                <TextBlock Text="Nice to have" FontSize="12" HorizontalAlignment="Center" Background="WhiteSmoke" ></TextBlock>
+                                <TextBlock Text="when its cold" FontSize="12" HorizontalAlignment="Center" Background="WhiteSmoke"></TextBlock>
                             </StackPanel>
                         </StackPanel>
                     </StackPanel>
@@ -113,7 +116,7 @@
 
             </StackPanel>
 
-            <StackPanel Width="101" HorizontalAlignment="Right" Background="black"/>
+            <StackPanel Width="267" HorizontalAlignment="Right" Background="black" RenderTransformOrigin="0.332,0.487"/>
 
         </StackPanel>
     </Grid>

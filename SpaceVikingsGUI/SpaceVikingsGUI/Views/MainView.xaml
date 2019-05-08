@@ -16,45 +16,29 @@
              Background="{DynamicResource MaterialDesignPaper}"
              FontFamily="{DynamicResource MaterialDesignFont}"
              mc:Ignorable="d"
-             d:DesignHeight="600" Width="94">
+             Height="600" Width="1024"
+             >
+    <Grid>
 
-    <Grid HorizontalAlignment="Left" Width="1027" Margin="0,0,-933,0">
-
-        <Grid.ColumnDefinitions>
-            <ColumnDefinition Width="100"/>
-            <ColumnDefinition Width="924"/>
-            <ColumnDefinition Width="0"/>
-            <ColumnDefinition Width="0*"/>
-        </Grid.ColumnDefinitions>
-        <Grid.RowDefinitions>
-            <RowDefinition Height="600"/>
-            <RowDefinition Height="0*"/>
-        </Grid.RowDefinitions>
-        <Grid.Background>
-            <LinearGradientBrush EndPoint="3,1" StartPoint="2,0" SpreadMethod="Reflect">
-                <GradientStop Color="#FF616161" Offset="0"/>
-                <GradientStop Color="#FFFDD835" Offset="0.7"/>
-            </LinearGradientBrush>
-        </Grid.Background>
-
-
-
-
-        <DockPanel Margin="0,0,903,0" Grid.ColumnSpan="2">
-            <StackPanel DockPanel.Dock="Top" HorizontalAlignment="Left" Width="100" Height="90" VerticalAlignment="Top" Background="black">
-                <Button Content="Play" Command="{Binding startGame}"></Button>
-                <Button Content="Store" Command="{Binding OpenStoreView}"></Button>
-                <Button Content="Char" Command="{Binding OpenInventoryView}"></Button>
-            </StackPanel>
-            <StackPanel DockPanel.Dock="Bottom" Width="100" VerticalAlignment="Bottom" HorizontalAlignment="Left" Height="32" Background="Black" >
-                <Button Content="Exit"  VerticalAlignment="Bottom"
-                        Command="{Binding CloseApplicationCommand, Mode=OneWay}" 
-                        CommandParameter="{Binding ElementName=MainWindow}"/>
-            </StackPanel>
-        </DockPanel>
-     <!--   <DockPanel Margin="10,0" Grid.Column="1">
-            <Image Source="../background2.png" Width="901"/>
-        </DockPanel>
-        --!>
+        <StackPanel Background="Black" Height="566" Width="100" VerticalAlignment="Center" HorizontalAlignment="Left" Margin="0,0,0,34">
+            <Button Content="Play" Command="{Binding startGame}"
+                    Style="{StaticResource MaterialDesignRaisedDarkButton}" Margin="3"></Button>
+            <Button Content="Store" Command="{Binding OpenStoreView}"
+                    Style="{StaticResource MaterialDesignRaisedDarkButton}" Margin="3"></Button>
+            <Button Content="Char" Command="{Binding OpenInventoryView}"
+                    Style="{StaticResource MaterialDesignRaisedDarkButton}" Margin="3"></Button>
+            
+        </StackPanel>
+        <StackPanel Background="Black" Height="600" Width="924" VerticalAlignment="Center" HorizontalAlignment="Right">
+            <Image Source="../background2.png" Height="599"/>
+        </StackPanel>
+        <StackPanel Background="Black" Height="50" Width="100" VerticalAlignment="Bottom" HorizontalAlignment="Left">
+            <Button Content="Exit"  VerticalAlignment="Bottom"
+                    Command="{Binding CloseApplicationCommand, Mode=OneWay}" 
+                    CommandParameter="{Binding ElementName=MainWindow}"
+                    Style="{DynamicResource MaterialDesignRaisedAccentButton}"/>
+        </StackPanel>
     </Grid>
+
+
 </UserControl>

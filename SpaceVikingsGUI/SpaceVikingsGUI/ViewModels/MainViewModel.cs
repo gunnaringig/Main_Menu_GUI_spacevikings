@@ -17,6 +17,7 @@ namespace SpaceVikingsGUI.ViewModels
         public RelayCommand OpenStoreView { get; set; }
         public RelayCommand OpenInventoryView { get; set; }
         public RelayCommand CloseApplicationCommand { get; set; }
+        public RelayCommand ResizeCommand { get; set; }
 
 
         public MainViewModel(INavigation navigation)
@@ -26,7 +27,7 @@ namespace SpaceVikingsGUI.ViewModels
             OpenStoreView = new RelayCommand(OnOpenStoreView);
             OpenInventoryView = new RelayCommand(OnOpenInventoryView);
             CloseApplicationCommand = new RelayCommand(OnApplicationClose);
-
+            ResizeCommand = new RelayCommand(resize);
         }
 
         private void OnOpenStoreView()
@@ -42,6 +43,12 @@ namespace SpaceVikingsGUI.ViewModels
         private void OnApplicationClose()
         {
             Application.Current.Shutdown();
+        }
+
+        private void resize()
+        {
+            Application.Current.MainWindow.Height = 600;
+            Application.Current.MainWindow.Width = 600;
         }
 
     }

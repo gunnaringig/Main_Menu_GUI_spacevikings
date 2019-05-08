@@ -73,6 +73,7 @@
     <Compile Include="Services\JsonParser.cs" />
     <Compile Include="Services\Service.cs" />
     <Compile Include="Services\ServiceTypes.cs" />
+    <Compile Include="Settings\windowSettings.cs" />
     <Compile Include="ViewModels\InventoryViewModel.cs" />
     <Compile Include="ViewModels\IViewModel.cs" />
     <Compile Include="ViewModels\LoginViewModel.cs" />
@@ -161,6 +162,15 @@
   </ItemGroup>
   <ItemGroup>
     <Resource Include="background2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="sword_test.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="glove_test.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="helmet_test.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
