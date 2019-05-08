@@ -52,8 +52,9 @@
                         CommandParameter="{Binding ElementName=MainWindow}"/>
             </StackPanel>
         </DockPanel>
-        <DockPanel Margin="10,0" Grid.Column="1">
+     <!--   <DockPanel Margin="10,0" Grid.Column="1">
             <Image Source="../background2.png" Width="901"/>
         </DockPanel>
+        --!>
     </Grid>
 </UserControl>
