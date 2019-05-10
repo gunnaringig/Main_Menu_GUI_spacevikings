@@ -20,24 +20,33 @@
     <Grid Background="White">
 
         <StackPanel Orientation="Horizontal">
-            <StackPanel HorizontalAlignment="Left" Width="267" Background="Black">
+            <StackPanel HorizontalAlignment="Left" Width="267" Background="DarkCyan">
 
             </StackPanel>
 
-            <StackPanel Width="500" HorizontalAlignment="Center">
-                <StackPanel Height="80"></StackPanel>
+            <StackPanel Width="500" HorizontalAlignment="Center"  Background="DarkCyan">
+                <StackPanel Height="80">
+                    <TextBlock>Credits:</TextBlock>
+                </StackPanel>
 
                 <StackPanel>
                     <TextBlock Text="Store" Height="29" FontSize="25" HorizontalAlignment="Center" Margin="222,0,10,0" Width="268"/>
                 </StackPanel>
 
-                <StackPanel Background="White" >
+                <StackPanel  Background="DarkCyan" >
                     <StackPanel Orientation="Horizontal" Height="110">
                         <StackPanel Width="220"  Orientation="Horizontal">
                             <StackPanel Width="110">
                                 
                             </StackPanel>
-                            <Image Source="../sword_test.png"></Image>
+                            <Button Height="90" Width="100" Click="Button_Click">
+                                <Button.Template>
+                                    <ControlTemplate>
+                                        <Image Source="../glove_test.png"></Image>
+                                    </ControlTemplate>
+                                </Button.Template>
+                            </Button>
+                            
                         </StackPanel>
 
                         <StackPanel Width="220" Orientation="Horizontal">
@@ -45,8 +54,16 @@
                                
                             </StackPanel>
                             <StackPanel Width="100">
-                                <Image Source="../glove_test.png"></Image>
+                                <Button Height="90" Width="100" Click="Button_Click">
+                                    <Button.Template>
+                                        <ControlTemplate>
+                                            <Image Source="../sword_test.png"></Image>
+                                        </ControlTemplate>
+                                    </Button.Template>
+                                </Button>
+                                <TextBlock HorizontalAlignment="Center" VerticalAlignment="Center" FontSize="10">Sword level 4 - 750kr</TextBlock>
                             </StackPanel>
+
                         </StackPanel>
                     </StackPanel>
 
@@ -56,14 +73,15 @@
                                 <!--<Image Source="Inventory/helmet.png"></Image>-->
                             </StackPanel>
                             <StackPanel Width="100" >
-                                <Button Height="110" Width="100" Click="Button_Click">
+                                <Button Height="90" Width="100" Click="Button_Click">
                                     <Button.Template>
                                         <ControlTemplate>
                                             <Image Source="../helmet_test.png"></Image>
                                         </ControlTemplate>
                                     </Button.Template>
                                 </Button>
-                                <Image Source="../helmet_test.png"></Image>
+                                <TextBlock HorizontalAlignment="Center" VerticalAlignment="Center" FontSize="10">Helmet level 4 - 500kr </TextBlock>
+
                             </StackPanel>
                         </StackPanel>
 
@@ -110,13 +128,14 @@
                 <Grid>
                     <Button Content="Close Store"
                             Command="{Binding CloseStoreWindowCommand}" 
+                            Style="{DynamicResource MaterialDesignRaisedAccentButton}" Margin="0,48,0,-48"
                     />
                 </Grid>
 
 
             </StackPanel>
 
-            <StackPanel Width="267" HorizontalAlignment="Right" Background="black" RenderTransformOrigin="0.332,0.487"/>
+            <StackPanel Width="267" HorizontalAlignment="Right" Background="DarkCyan" RenderTransformOrigin="0.332,0.487"/>
 
         </StackPanel>
     </Grid>

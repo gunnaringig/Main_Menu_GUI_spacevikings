@@ -19,11 +19,11 @@
     <Grid Background="White">
 
         <StackPanel Orientation="Horizontal">
-            <StackPanel HorizontalAlignment="Left" Width="267" Background="Black">
+            <StackPanel HorizontalAlignment="Left" Width="267"  Background="DarkCyan">
 
             </StackPanel>
 
-            <StackPanel Width="500" HorizontalAlignment="Center">
+            <StackPanel Width="500" HorizontalAlignment="Center"  Background="DarkCyan">
                 <StackPanel Height="80"></StackPanel>
 
                 <StackPanel>
@@ -126,14 +126,15 @@
                 </StackPanel>
                 <Grid>
                     <Button Content="Close Inventory"
-                            Command="{Binding CloseInventoryWindowCommand}" Margin="0,52,0,-52"
+                            Command="{Binding CloseInventoryWindowCommand}" Margin="-2,52,2,-52"
+                            Style="{DynamicResource MaterialDesignRaisedAccentButton}"
                          
                     />
                 </Grid>
 
             </StackPanel>
 
-            <StackPanel Width="267" HorizontalAlignment="Right" Background="black"></StackPanel>
+            <StackPanel Width="267" HorizontalAlignment="Right"  Background="DarkCyan"></StackPanel>
         </StackPanel>
 
 
