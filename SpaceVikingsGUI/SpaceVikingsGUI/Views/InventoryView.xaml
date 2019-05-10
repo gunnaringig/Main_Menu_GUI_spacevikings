@@ -103,7 +103,7 @@
                                         </ControlTemplate>
                                     </Button.Template>
                                 </Button>
-                                <TextBox HorizontalAlignment="Center">Helmet lvl. 4</TextBox>
+                                <TextBlock HorizontalAlignment="Center">Helmet lvl. 4</TextBlock>
                             </StackPanel>
                         </StackPanel>
 
@@ -112,20 +112,21 @@
                                 <!--<Image Source="Inventory/Gloves.png"></Image>-->
                             </StackPanel>
                             <StackPanel Width="100">
-                                <Button Height="110" Width="100">
+                                <Button Height="90" Width="100">
                                     <Button.Template>
                                         <ControlTemplate>
                                             <Image Source="../sword_test.png"></Image>
                                         </ControlTemplate>
                                     </Button.Template>
                                 </Button>
+                                <TextBlock HorizontalAlignment="Center">Sword lvl. 99</TextBlock>
                             </StackPanel>
                         </StackPanel>
                     </StackPanel>
                 </StackPanel>
                 <Grid>
                     <Button Content="Close Inventory"
-                            Command="{Binding CloseInventoryWindowCommand}"
+                            Command="{Binding CloseInventoryWindowCommand}" Margin="0,52,0,-52"
                          
                     />
                 </Grid>

@@ -22,7 +22,7 @@
         <Grid.Background>
             <LinearGradientBrush EndPoint="3,1" StartPoint="2,0" SpreadMethod="Reflect">
                 <GradientStop Color="#FF616161" Offset="0"/>
-                <GradientStop Color="#FFFDD835" Offset="0.7"/>
+                <GradientStop Color="DarkCyan" Offset="1.5"/>
             </LinearGradientBrush>
         </Grid.Background>
         <Grid.ColumnDefinitions>
@@ -61,13 +61,13 @@
 
         <Grid Grid.Column="1" Grid.Row="1" Grid.ColumnSpan="5">
             <Grid>
-                <TextBlock Foreground="#FF616161" Text="SPACE VIKINGS" HorizontalAlignment="Center" VerticalAlignment="Center" FontSize="70" Style="{StaticResource MaterialDesignHeadlineTextBlock}"/>
+                <TextBlock Foreground="Wheat" Text="SPACE VIKINGS" HorizontalAlignment="Center" VerticalAlignment="Center" FontSize="70" Style="{StaticResource MaterialDesignHeadlineTextBlock}" Margin="80,34,72,-18"/>
             </Grid>
         </Grid>
 
         <Grid Grid.Column="2" Grid.Row="3" Grid.ColumnSpan="3">
             <Grid>
-                <TextBox Margin="10" materialDesign:HintAssist.Hint="Username" Text="{Binding Username, UpdateSourceTrigger=PropertyChanged}">
+                <TextBox Style="{DynamicResource MaterialDesignTextBox}" Margin="10" materialDesign:HintAssist.Hint="Username" Text="{Binding Username, UpdateSourceTrigger=PropertyChanged}">
                     <TextBox.InputBindings>
                         <KeyBinding Key="Return" Command="{Binding LoginCommand}"></KeyBinding>
                     </TextBox.InputBindings>
@@ -77,7 +77,7 @@
 
         <Grid Grid.Column="2" Grid.Row="5" Grid.ColumnSpan="3">
             <Grid>
-                <PasswordBox x:Name="PasswordBox" Margin="10" materialDesign:HintAssist.Hint="Password">
+                <PasswordBox x:Name="PasswordBox" Margin="10" materialDesign:HintAssist.Hint="Password" Style="{DynamicResource MaterialDesignPasswordBox}">
                     <PasswordBox.InputBindings>
                         <KeyBinding Key="Return" Command="{Binding LoginCommand}"/>
                     </PasswordBox.InputBindings>
@@ -111,7 +111,7 @@
                 </Button>
             </Grid>
         </Grid>
-        <Button Command="{Binding CloseApplicationCommand}" Grid.ColumnSpan="3" Content="Exit" Grid.Column="2" HorizontalAlignment="Left" Margin="10,31,0,0" Grid.Row="8" VerticalAlignment="Top" Width="300" Style="{StaticResource MaterialDesignFlatButton}" Background="{StaticResource PrimaryHueDarkBrush}" Foreground="WhiteSmoke" ForceCursor="True"/>
+        <Button Command="{Binding CloseApplicationCommand}" Grid.ColumnSpan="3" Content="Exit" Grid.Column="2" HorizontalAlignment="Left" Margin="10,19,0,0" Grid.Row="8" VerticalAlignment="Top" Width="300" Style="{DynamicResource MaterialDesignRaisedAccentButton}" Background="{StaticResource PrimaryHueDarkBrush}" Foreground="WhiteSmoke" ForceCursor="True"/>
 
     </Grid>
 </UserControl>
