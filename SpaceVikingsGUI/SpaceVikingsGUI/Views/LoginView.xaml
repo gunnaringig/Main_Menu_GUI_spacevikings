@@ -61,7 +61,7 @@
 
         <Grid Grid.Column="1" Grid.Row="1" Grid.ColumnSpan="5">
             <Grid>
-                <TextBlock Foreground="Wheat" Text="SPACE VIKINGS" HorizontalAlignment="Center" VerticalAlignment="Center" FontSize="70" Style="{StaticResource MaterialDesignHeadlineTextBlock}" Margin="80,34,72,-18"/>
+                <TextBlock Foreground="Wheat" Text="SPACE VIKINGS" HorizontalAlignment="Center" VerticalAlignment="Center" FontSize="60" Style="{StaticResource MaterialDesignHeadlineTextBlock}" Margin="98,10,120,6" Height="84" Width="406"/>
             </Grid>
         </Grid>
 
@@ -111,7 +111,7 @@
                 </Button>
             </Grid>
         </Grid>
-        <Button Command="{Binding CloseApplicationCommand}" Grid.ColumnSpan="3" Content="Exit" Grid.Column="2" HorizontalAlignment="Left" Margin="10,19,0,0" Grid.Row="8" VerticalAlignment="Top" Width="300" Style="{DynamicResource MaterialDesignRaisedAccentButton}" Background="{StaticResource PrimaryHueDarkBrush}" Foreground="WhiteSmoke" ForceCursor="True"/>
+        <Button Command="{Binding CloseApplicationCommand}" Grid.ColumnSpan="3" Content="Exit" Grid.Column="2" HorizontalAlignment="Left" Margin="10,19,0,0" Grid.Row="8" VerticalAlignment="Top" Width="300" Style="{DynamicResource MaterialDesignRaisedAccentButton}" Background="{StaticResource PrimaryHueDarkBrush}" ForceCursor="True"/>
 
     </Grid>
 </UserControl>

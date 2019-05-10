@@ -70,6 +70,9 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </ApplicationDefinition>
+    <Compile Include="APIConsumption\DTO.cs" />
+    <Compile Include="APIConsumption\HttpClientHelper.cs" />
+    <Compile Include="APIConsumption\SerializationDeserialization.cs" />
     <Compile Include="Services\JsonParser.cs" />
     <Compile Include="Services\Service.cs" />
     <Compile Include="Services\ServiceTypes.cs" />
