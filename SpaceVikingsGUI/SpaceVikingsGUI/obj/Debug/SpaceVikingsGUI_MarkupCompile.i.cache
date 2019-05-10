@@ -4,17 +4,17 @@
 winexe
 C#
 .cs
-D:\Skoli\Skoli\4.SEMESTER\PRJ4\GUI_V2\SpaceVikingsGUI\SpaceVikingsGUI\obj\Debug\
+C:\Users\Blank\Desktop\Ny mappe\Main_Menu_GUI_spacevikings\SpaceVikingsGUI\SpaceVikingsGUI\obj\Debug\
 SpaceVikingsGUI
 none
 false
 DEBUG;TRACE
-D:\Skoli\Skoli\4.SEMESTER\PRJ4\GUI_V2\SpaceVikingsGUI\SpaceVikingsGUI\App.xaml
+C:\Users\Blank\Desktop\Ny mappe\Main_Menu_GUI_spacevikings\SpaceVikingsGUI\SpaceVikingsGUI\App.xaml
 5-1985179456
 
-23-103383471
-19-1878106888
+291107603485
+191255972601
 MainWindow.xaml;Views\InventoryView.xaml;Views\LoginView.xaml;Views\MainView.xaml;Views\StoreView.xaml;
 
-True
+False
 
