@@ -35,6 +35,10 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="BifrostLib, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>Data\Networking\BifrostLib.dll</HintPath>
+    </Reference>
     <Reference Include="MaterialDesignColors, Version=1.1.2.0, Culture=neutral, processorArchitecture=MSIL">
       <HintPath>..\packages\MaterialDesignColors.1.1.2\lib\net45\MaterialDesignColors.dll</HintPath>
     </Reference>
@@ -175,5 +179,20 @@
   <ItemGroup>
     <Resource Include="helmet_test.png" />
   </ItemGroup>
+  <ItemGroup>
+    <Content Include="Data\GameBinaries\Movement.exe">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Data\Networking\BifrostLib.dll" />
+    <Content Include="Data\Networking\BifrostLib.pdb" />
+    <Content Include="Data\Networking\GameEngine.dll" />
+    <Content Include="Data\Networking\GameEngine.pdb" />
+    <Content Include="Data\Networking\Newtonsoft.Json.dll" />
+    <Resource Include="Data\Networking\Newtonsoft.Json.xml" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <PropertyGroup>
+    <PreBuildEvent>
+    </PreBuildEvent>
+  </PropertyGroup>
 </Project>

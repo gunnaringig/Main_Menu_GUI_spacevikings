@@ -80,17 +80,6 @@ namespace SpaceVikingsGUI.ViewModels
              {
                  //skifd;
              }
-
-             //try
-            //{
-                //user = _userService.Get(user);
-                //await hcp.GetLogin(user.Email, user.Password);
-           
-            //}
-            //catch (Exception e)
-            //{
-                //ErrorMessage = e.Message;
-            //}
         }
 
         private void OnApplicationClose()
