@@ -10,3 +10,9 @@ C:\Users\Blank\Desktop\Ny mappe\Main_Menu_GUI_spacevikings\SpaceVikingsGUI\Space
 C:\Users\Blank\Desktop\Ny mappe\Main_Menu_GUI_spacevikings\SpaceVikingsGUI\SpaceVikingsGUI.Data\obj\Debug\SpaceVikingsGUI.Data.csproj.CoreCompileInputs.cache
 C:\Users\Blank\Desktop\Ny mappe\Main_Menu_GUI_spacevikings\SpaceVikingsGUI\SpaceVikingsGUI.Data\obj\Debug\SpaceVikingsGUI.Data.dll
 C:\Users\Blank\Desktop\Ny mappe\Main_Menu_GUI_spacevikings\SpaceVikingsGUI\SpaceVikingsGUI.Data\obj\Debug\SpaceVikingsGUI.Data.pdb
+C:\Users\Nano\source\Main_Menu_GUI_spacevikings\SpaceVikingsGUI\SpaceVikingsGUI.Data\bin\Debug\SpaceVikingsGUI.Data.dll
+C:\Users\Nano\source\Main_Menu_GUI_spacevikings\SpaceVikingsGUI\SpaceVikingsGUI.Data\bin\Debug\SpaceVikingsGUI.Data.pdb
+C:\Users\Nano\source\Main_Menu_GUI_spacevikings\SpaceVikingsGUI\SpaceVikingsGUI.Data\obj\Debug\SpaceVikingsGUI.Data.csprojAssemblyReference.cache
+C:\Users\Nano\source\Main_Menu_GUI_spacevikings\SpaceVikingsGUI\SpaceVikingsGUI.Data\obj\Debug\SpaceVikingsGUI.Data.csproj.CoreCompileInputs.cache
+C:\Users\Nano\source\Main_Menu_GUI_spacevikings\SpaceVikingsGUI\SpaceVikingsGUI.Data\obj\Debug\SpaceVikingsGUI.Data.dll
+C:\Users\Nano\source\Main_Menu_GUI_spacevikings\SpaceVikingsGUI\SpaceVikingsGUI.Data\obj\Debug\SpaceVikingsGUI.Data.pdb
