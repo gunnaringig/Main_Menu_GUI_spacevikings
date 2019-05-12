@@ -2,6 +2,7 @@
 using System.ComponentModel;
 using System.Windows;
 using System.Windows.Controls;
+using SpaceVikingsGUI.APIConsumption;
 using SpaceVikingsGUI.Commands;
 using SpaceVikingsGUI.Data.Users;
 using SpaceVikingsGUI.Navigation;
@@ -19,6 +20,7 @@ namespace SpaceVikingsGUI.ViewModels
 
         private readonly INavigation _navigation;
         private readonly Service.IService<IUser, IUser> _userService;
+        private HttpClientHelper hcp;
 
         public LoginViewModel(INavigation navigation)
         {
@@ -59,20 +61,36 @@ namespace SpaceVikingsGUI.ViewModels
             Username = string.Empty;
         }
 
-        private void OnLogin()
+        private async void OnLogin()
         {
             IUser user = new User() { Email = Username, Password = Password };
+            string email = (string)user.Email;
+            string pass = (string) user.Password;
+            hcp = new HttpClientHelper();
+           // Login login = new Login();
 
-            try
-            {
-                user = _userService.Get(user);
+             var login = await hcp.GetLogin(user.Email, user.Password);
+             if (login != null)
+             {
+                //godt;
                 _navigation.Close(new MainWindow());
                 _navigation.Show(new MainViewModel(_navigation));
             }
-            catch (Exception e)
-            {
-                ErrorMessage = e.Message;
-            }
+             else
+             {
+                 //skifd;
+             }
+
+             //try
+            //{
+                //user = _userService.Get(user);
+                //await hcp.GetLogin(user.Email, user.Password);
+           
+            //}
+            //catch (Exception e)
+            //{
+                //ErrorMessage = e.Message;
+            //}
         }
 
         private void OnApplicationClose()
