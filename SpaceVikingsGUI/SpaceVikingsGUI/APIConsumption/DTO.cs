@@ -2,7 +2,7 @@
 {
     // Step 1 paste special json to classes
 
-    public class Login
+    public class Login : ILogin
     {
         public int LoginId { get; set; }
         public string Email { get; set; }
@@ -10,7 +10,7 @@
         public Game[] Games { get; set; }
     }
 
-    public class Game
+    public class Game : IGame
     {
         public int GameId { get; set; }
         public string Name { get; set; }
@@ -19,7 +19,7 @@
         public int ProgressId { get; set; }
     }
 
-    public class Progress
+    public class Progress : IProgress
     {
         public int ProgressId { get; set; }
         public int Level { get; set; }
@@ -27,7 +27,7 @@
         public int TimePlayed { get; set; }
     }
 
-    public class Character
+    public class Character : ICharacter
     {
         public int CharacterId { get; set; }
         public string Name { get; set; }
@@ -44,14 +44,14 @@
         public int Credit { get; set; }
     }
 
-    public class Inventory
+    public class Inventory : IInventory
     {
         public int InventoryId { get; set; }
         public int Size { get; set; }
         public Item[] Items { get; set; }
     }
 
-    public class Item
+    public class Item : IItem
     {
         public int ItemId { get; set; }
         public string Name { get; set; }
@@ -60,7 +60,7 @@
         public int StatsId { get; set; }
     }
 
-    public class Stats
+    public class Stats : IStats
     {
         public int StatsId { get; set; }
         public int Attack { get; set; }
@@ -69,7 +69,7 @@
         public int Agility { get; set; }
     }
 
-    public class Stats1
+    public class Stats1 : IStats1
     {
         public int StatsId { get; set; }
         public int Attack { get; set; }

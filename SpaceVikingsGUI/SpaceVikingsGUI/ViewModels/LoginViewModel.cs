@@ -20,7 +20,7 @@ namespace SpaceVikingsGUI.ViewModels
 
         private readonly INavigation _navigation;
         private readonly Service.IService<IUser, IUser> _userService;
-        private HttpClientHelper hcp;
+        private IHttpClientHelper _httpClientHelper;
 
         public LoginViewModel(INavigation navigation)
         {
@@ -63,19 +63,21 @@ namespace SpaceVikingsGUI.ViewModels
 
         private async void OnLogin()
         {
-            IUser user = new User() { Email = Username, Password = Password };
-            string email = (string)user.Email;
-            string pass = (string) user.Password;
-            hcp = new HttpClientHelper();
-           // Login login = new Login();
+            //IUser user = new User() { Email = Username, Password = Password };
+            //string email = (string)user.Email;
+            //string pass = (string) user.Password;
+            _httpClientHelper = new HttpClientHelper();
+            // Login login = new Login();
 
-             var login = await hcp.GetLogin(user.Email, user.Password);
-             if (login != null)
+            //var login = await _httpClientHelper.GetLogin(user.Email, user.Password);
+            var login = await _httpClientHelper.GetLogin(Username, Password);
+
+            if (login != null)
              {
                 //godt;
                 _navigation.Close(new MainWindow());
-                _navigation.Show(new MainViewModel(_navigation));
-            }
+                _navigation.Show(new MainViewModel(_navigation, login));
+             }
              else
              {
                  //skifd;

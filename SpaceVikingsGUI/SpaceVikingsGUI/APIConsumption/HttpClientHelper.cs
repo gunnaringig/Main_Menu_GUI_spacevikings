@@ -8,7 +8,7 @@ using System.Web;
 
 namespace SpaceVikingsGUI.APIConsumption
 {
-    public class HttpClientHelper
+    public class HttpClientHelper : IHttpClientHelper
     {
         public SerializationDeserialization SerializationDeserialization1 = new SerializationDeserialization();
         public async Task<Login> GetLogin(string email, string password)

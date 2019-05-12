@@ -76,6 +76,8 @@
     </ApplicationDefinition>
     <Compile Include="APIConsumption\DTO.cs" />
     <Compile Include="APIConsumption\HttpClientHelper.cs" />
+    <Compile Include="APIConsumption\IDTO.cs" />
+    <Compile Include="APIConsumption\IHttpClientHelper.cs" />
     <Compile Include="APIConsumption\SerializationDeserialization.cs" />
     <Compile Include="Services\JsonParser.cs" />
     <Compile Include="Services\Service.cs" />
