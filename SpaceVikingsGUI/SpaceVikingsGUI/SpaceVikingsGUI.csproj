@@ -166,16 +166,16 @@
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>
-    <Resource Include="background2.png" />
+    <Resource Include="Pics\background2.png" />
   </ItemGroup>
   <ItemGroup>
-    <Resource Include="sword_test.png" />
+    <Resource Include="Pics\sword_test.png" />
   </ItemGroup>
   <ItemGroup>
-    <Resource Include="glove_test.png" />
+    <Resource Include="Pics\glove_test.png" />
   </ItemGroup>
   <ItemGroup>
-    <Resource Include="helmet_test.png" />
+    <Resource Include="Pics\helmet_test.png" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="Data\Networking\BifrostLib.dll" />

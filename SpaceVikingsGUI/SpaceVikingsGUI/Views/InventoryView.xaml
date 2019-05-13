@@ -40,7 +40,7 @@
                                 <Button Height="110" Width="100">
                                     <Button.Template>
                                         <ControlTemplate>
-                                            <Image Source="../helmet_test.png"></Image>
+                                            <Image Source="../Pics/helmet_test.png"></Image>
                                         </ControlTemplate>
                                     </Button.Template>
                                 </Button>
@@ -55,7 +55,7 @@
                                 <Button Height="110" Width="100">
                                     <Button.Template>
                                         <ControlTemplate>
-                                            <Image Source="../helmet_test.png"></Image>
+                                            <Image Source="../Pics/helmet_test.png"></Image>
                                         </ControlTemplate>
                                     </Button.Template>
                                 </Button>
@@ -69,7 +69,7 @@
                                 <!--<Image Source="Inventory/helmet.png"></Image>-->
                             </StackPanel>
                             <StackPanel Width="100">
-                                <Image Source="../glove_test.png"></Image>
+                                <Image Source="../Pics/glove_test.png"></Image>
                             </StackPanel>
                         </StackPanel>
 
@@ -81,7 +81,7 @@
                                 <Button Height="110" Width="100" HorizontalAlignment="Right" Click="Button_Click">
                                     <Button.Template>
                                         <ControlTemplate>
-                                            <Image Source="../sword_test.png"></Image>
+                                            <Image Source="../Pics/sword_test.png"></Image>
                                         </ControlTemplate>
                                     </Button.Template>
                                 </Button>
@@ -99,7 +99,7 @@
                                 <Button Height="90" Width="100">
                                     <Button.Template>
                                         <ControlTemplate>
-                                            <Image Source="../helmet_test.png"></Image>
+                                            <Image Source="../Pics/helmet_test.png"></Image>
                                         </ControlTemplate>
                                     </Button.Template>
                                 </Button>
@@ -115,7 +115,7 @@
                                 <Button Height="90" Width="100">
                                     <Button.Template>
                                         <ControlTemplate>
-                                            <Image Source="../sword_test.png"></Image>
+                                            <Image Source="../Pics/sword_test.png"></Image>
                                         </ControlTemplate>
                                     </Button.Template>
                                 </Button>
