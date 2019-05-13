@@ -6,7 +6,7 @@ using System.Linq;
 using System.Windows;
 using SpaceVikingsGUI.Commands;
 using SpaceVikingsGUI.Navigation;
-using SpaceVikingsGUI.Services;
+//using SpaceVikingsGUI.Services;
 using BifrostClient;
 using System.IO;
 using SpaceVikingsGUI.APIConsumption;

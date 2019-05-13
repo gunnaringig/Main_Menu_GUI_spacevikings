@@ -8,7 +8,6 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-[assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("data/gamebinaries/movement.exe")]
 [assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("data/networking/bifrostlib.dll")]
 [assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("data/networking/bifrostlib.pdb")]
 [assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("data/networking/gameengine.dll")]

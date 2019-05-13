@@ -6,7 +6,7 @@ using System.Windows;
 using SpaceVikingsGUI.APIConsumption;
 using SpaceVikingsGUI.Commands;
 using SpaceVikingsGUI.Navigation;
-using SpaceVikingsGUI.Services;
+//using SpaceVikingsGUI.Services;
 
 namespace SpaceVikingsGUI.ViewModels
 {

@@ -6,7 +6,7 @@ using SpaceVikingsGUI.APIConsumption;
 using SpaceVikingsGUI.Commands;
 using SpaceVikingsGUI.Data.Users;
 using SpaceVikingsGUI.Navigation;
-using SpaceVikingsGUI.Services;
+//using SpaceVikingsGUI.Services;
 using SpaceVikingsGUI.Views;
 
 namespace SpaceVikingsGUI.ViewModels
@@ -19,13 +19,13 @@ namespace SpaceVikingsGUI.ViewModels
         private PasswordBox _boxRef;
 
         private readonly INavigation _navigation;
-        private readonly Service.IService<IUser, IUser> _userService;
+        //private readonly Service.IService<IUser, IUser> _userService;
         private IHttpClientHelper _httpClientHelper;
 
         public LoginViewModel(INavigation navigation)
         {
             _navigation = navigation;
-            _userService = Service.ServiceFactory.CreateUserService();
+            //_userService = Service.ServiceFactory.CreateUserService();
 
             LoginCommand = new RelayCommand(OnLogin, CanLogin);
             PasswordChangedCommand = new RelayCommand<PasswordBox>(OnPasswordChanged);
@@ -38,20 +38,20 @@ namespace SpaceVikingsGUI.ViewModels
 
         private void OnAddUser()
         {
-            IUser user = new User() { Email = Username, Password = Password };
+            //IUser user = new User() { Email = Username, Password = Password };
 
-            try
-            {
-                user = _userService.Add(user);
+            //try
+            //{
+            //    user = _userService.Add(user);
 
-                ClearInputFields();
+            //    ClearInputFields();
 
-                ErrorMessage = $"Welcome {user.Email}!";
-            }
-            catch (Exception e)
-            {
-                ErrorMessage = e.Message;
-            }
+            //    ErrorMessage = $"Welcome {user.Email}!";
+            //}
+            //catch (Exception e)
+            //{
+            //    ErrorMessage = e.Message;
+            //}
 
         }
 
@@ -63,25 +63,20 @@ namespace SpaceVikingsGUI.ViewModels
 
         private async void OnLogin()
         {
-            //IUser user = new User() { Email = Username, Password = Password };
-            //string email = (string)user.Email;
-            //string pass = (string) user.Password;
             _httpClientHelper = new HttpClientHelper();
-            // Login login = new Login();
-
-            //var login = await _httpClientHelper.GetLogin(user.Email, user.Password);
+           
             var login = await _httpClientHelper.GetLogin(Username, Password);
 
             if (login != null)
-             {
-                //godt;
+            {
                 _navigation.Close(new MainWindow());
                 _navigation.Show(new MainViewModel(_navigation, login));
-             }
-             else
-             {
-                 //skifd;
-             }
+            }
+            else
+            {
+                MessageBox.Show("Login failed");
+                Username = "";
+            }
         }
 
         private void OnApplicationClose()

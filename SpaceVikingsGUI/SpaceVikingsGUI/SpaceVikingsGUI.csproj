@@ -79,10 +79,6 @@
     <Compile Include="APIConsumption\IDTO.cs" />
     <Compile Include="APIConsumption\IHttpClientHelper.cs" />
     <Compile Include="APIConsumption\SerializationDeserialization.cs" />
-    <Compile Include="Services\JsonParser.cs" />
-    <Compile Include="Services\Service.cs" />
-    <Compile Include="Services\ServiceTypes.cs" />
-    <Compile Include="Settings\windowSettings.cs" />
     <Compile Include="ViewModels\InventoryViewModel.cs" />
     <Compile Include="ViewModels\IViewModel.cs" />
     <Compile Include="ViewModels\LoginViewModel.cs" />
@@ -182,15 +178,15 @@
     <Resource Include="helmet_test.png" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="Data\GameBinaries\Movement.exe">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </Content>
     <Content Include="Data\Networking\BifrostLib.dll" />
     <Content Include="Data\Networking\BifrostLib.pdb" />
     <Content Include="Data\Networking\GameEngine.dll" />
     <Content Include="Data\Networking\GameEngine.pdb" />
     <Content Include="Data\Networking\Newtonsoft.Json.dll" />
     <Resource Include="Data\Networking\Newtonsoft.Json.xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Data\GameBinaries\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <PropertyGroup>
