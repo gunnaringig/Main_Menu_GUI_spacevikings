@@ -1,11 +1,13 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 15
-VisualStudioVersion = 15.0.28307.329
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.28803.156
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SpaceVikingsGUI", "SpaceVikingsGUI\SpaceVikingsGUI.csproj", "{867525BC-F015-4271-BB36-806E16D9525D}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SpaceVikingsGUI.Data", "SpaceVikingsGUI.Data\SpaceVikingsGUI.Data.csproj", "{E458C30A-36AA-402A-8D5B-74DB2FD5D640}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SpaveVikingsGUI.test", "SpaveVikingsGUI.test\SpaveVikingsGUI.test.csproj", "{FA01E0E0-446C-4B22-A83A-24DD1A2BB602}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +23,10 @@ Global
 		{E458C30A-36AA-402A-8D5B-74DB2FD5D640}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E458C30A-36AA-402A-8D5B-74DB2FD5D640}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E458C30A-36AA-402A-8D5B-74DB2FD5D640}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FA01E0E0-446C-4B22-A83A-24DD1A2BB602}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FA01E0E0-446C-4B22-A83A-24DD1A2BB602}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FA01E0E0-446C-4B22-A83A-24DD1A2BB602}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FA01E0E0-446C-4B22-A83A-24DD1A2BB602}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

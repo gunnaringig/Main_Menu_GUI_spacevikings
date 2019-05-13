@@ -1,0 +1,74 @@
+{
+  "format": 1,
+  "restore": {
+    "D:\\Skoli\\Skoli\\4.SEMESTER\\PRJ4\\GUI_V2\\SpaceVikingsGUI\\SpaveVikingsGUI.test\\SpaveVikingsGUI.test.csproj": {}
+  },
+  "projects": {
+    "D:\\Skoli\\Skoli\\4.SEMESTER\\PRJ4\\GUI_V2\\SpaceVikingsGUI\\SpaveVikingsGUI.test\\SpaveVikingsGUI.test.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Skoli\\Skoli\\4.SEMESTER\\PRJ4\\GUI_V2\\SpaceVikingsGUI\\SpaveVikingsGUI.test\\SpaveVikingsGUI.test.csproj",
+        "projectName": "SpaveVikingsGUI.test",
+        "projectPath": "D:\\Skoli\\Skoli\\4.SEMESTER\\PRJ4\\GUI_V2\\SpaceVikingsGUI\\SpaveVikingsGUI.test\\SpaveVikingsGUI.test.csproj",
+        "packagesPath": "C:\\Users\\gunna\\.nuget\\packages\\",
+        "outputPath": "D:\\Skoli\\Skoli\\4.SEMESTER\\PRJ4\\GUI_V2\\SpaceVikingsGUI\\SpaveVikingsGUI.test\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\ProgramData\\Xamarin\\NuGet\\",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\gunna\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp2.2"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp2.2": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp2.2": {
+          "dependencies": {
+            "Microsoft.NET.Test.Sdk": {
+              "target": "Package",
+              "version": "[15.9.0, )"
+            },
+            "Microsoft.NETCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.2.0, )",
+              "autoReferenced": true
+            },
+            "NUnit3TestAdapter": {
+              "target": "Package",
+              "version": "[3.11.0, )"
+            },
+            "nunit": {
+              "target": "Package",
+              "version": "[3.11.0, )"
+            }
+          },
+          "imports": [
+            "net461"
+          ],
+          "assetTargetFallback": true,
+          "warn": true
+        }
+      }
+    }
+  }
+}
