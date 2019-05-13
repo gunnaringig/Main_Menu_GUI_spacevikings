@@ -6,15 +6,17 @@ using System.Linq;
 using System.Windows;
 using SpaceVikingsGUI.Commands;
 using SpaceVikingsGUI.Navigation;
-using SpaceVikingsGUI.Services;
+//using SpaceVikingsGUI.Services;
 using BifrostClient;
 using System.IO;
+using SpaceVikingsGUI.APIConsumption;
 
 namespace SpaceVikingsGUI.ViewModels
 {
     public class MainViewModel : INotifyPropertyChanged, IViewModel
     {
         private readonly INavigation _navigation;
+        private readonly ILogin _login;
         public event PropertyChangedEventHandler PropertyChanged;
 
         public RelayCommand OpenStoreView { get; set; }
@@ -24,9 +26,10 @@ namespace SpaceVikingsGUI.ViewModels
         public RelayCommand startGame { get; set; }
         private bool waitingForGame = false;
 
-        public MainViewModel(INavigation navigation)
+        public MainViewModel(INavigation navigation, ILogin login)
         {
             _navigation = navigation;
+            _login = login;
 
             OpenStoreView = new RelayCommand(OnOpenStoreView);
             OpenInventoryView = new RelayCommand(OnOpenInventoryView);
@@ -37,12 +40,12 @@ namespace SpaceVikingsGUI.ViewModels
 
         private void OnOpenStoreView()
         {
-            _navigation.Show(new StoreViewModel(_navigation));
+            _navigation.Show(new StoreViewModel(_navigation, _login));
         }
 
         private void OnOpenInventoryView()
         {
-            _navigation.Show(new InventoryViewModel(_navigation));
+            _navigation.Show(new InventoryViewModel(_navigation, _login));
         }
 
         private void StartGameEvent() {
