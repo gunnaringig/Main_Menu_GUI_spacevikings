@@ -4,53 +4,8 @@
     <list default="true" id="fbfca720-2873-4cf7-90ef-f258f817b3a4" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.SpaceVikingsGUI/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.SpaceVikingsGUI/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.vs/SpaceVikingsGUI/v15/.suo" beforeDir="false" afterPath="$PROJECT_DIR$/.vs/SpaceVikingsGUI/v15/.suo" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.vs/SpaceVikingsGUI/v15/Server/sqlite3/storage.ide-shm" beforeDir="false" afterPath="$PROJECT_DIR$/.vs/SpaceVikingsGUI/v15/Server/sqlite3/storage.ide-shm" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.vs/SpaceVikingsGUI/v15/Server/sqlite3/storage.ide-wal" beforeDir="false" afterPath="$PROJECT_DIR$/.vs/SpaceVikingsGUI/v15/Server/sqlite3/storage.ide-wal" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SpaceVikingsGUI.Data/bin/Debug/SpaceVikingsGUI.Data.dll" beforeDir="false" afterPath="$PROJECT_DIR$/SpaceVikingsGUI.Data/bin/Debug/SpaceVikingsGUI.Data.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SpaceVikingsGUI.Data/bin/Debug/SpaceVikingsGUI.Data.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/SpaceVikingsGUI.Data/bin/Debug/SpaceVikingsGUI.Data.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SpaceVikingsGUI.Data/obj/Debug/SpaceVikingsGUI.Data.csproj.CoreCompileInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/SpaceVikingsGUI.Data/obj/Debug/SpaceVikingsGUI.Data.csproj.CoreCompileInputs.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SpaceVikingsGUI.Data/obj/Debug/SpaceVikingsGUI.Data.csproj.FileListAbsolute.txt" beforeDir="false" afterPath="$PROJECT_DIR$/SpaceVikingsGUI.Data/obj/Debug/SpaceVikingsGUI.Data.csproj.FileListAbsolute.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SpaceVikingsGUI.Data/obj/Debug/SpaceVikingsGUI.Data.dll" beforeDir="false" afterPath="$PROJECT_DIR$/SpaceVikingsGUI.Data/obj/Debug/SpaceVikingsGUI.Data.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SpaceVikingsGUI.Data/obj/Debug/SpaceVikingsGUI.Data.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/SpaceVikingsGUI.Data/obj/Debug/SpaceVikingsGUI.Data.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SpaceVikingsGUI/MainWindow.xaml" beforeDir="false" afterPath="$PROJECT_DIR$/SpaceVikingsGUI/MainWindow.xaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SpaceVikingsGUI/Views/LoginView.xaml" beforeDir="false" afterPath="$PROJECT_DIR$/SpaceVikingsGUI/Views/LoginView.xaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SpaceVikingsGUI/bin/Debug/SpaceVikingsGUI.Data.dll" beforeDir="false" afterPath="$PROJECT_DIR$/SpaceVikingsGUI/bin/Debug/SpaceVikingsGUI.Data.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SpaceVikingsGUI/bin/Debug/SpaceVikingsGUI.Data.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/SpaceVikingsGUI/bin/Debug/SpaceVikingsGUI.Data.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SpaceVikingsGUI/bin/Debug/SpaceVikingsGUI.exe" beforeDir="false" afterPath="$PROJECT_DIR$/SpaceVikingsGUI/bin/Debug/SpaceVikingsGUI.exe" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SpaceVikingsGUI/bin/Debug/SpaceVikingsGUI.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/SpaceVikingsGUI/bin/Debug/SpaceVikingsGUI.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SpaceVikingsGUI/obj/Debug/App.g.cs" beforeDir="false" afterPath="$PROJECT_DIR$/SpaceVikingsGUI/obj/Debug/App.g.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SpaceVikingsGUI/obj/Debug/App.g.i.cs" beforeDir="false" afterPath="$PROJECT_DIR$/SpaceVikingsGUI/obj/Debug/App.g.i.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SpaceVikingsGUI/obj/Debug/DesignTimeResolveAssemblyReferences.cache" beforeDir="false" afterPath="$PROJECT_DIR$/SpaceVikingsGUI/obj/Debug/DesignTimeResolveAssemblyReferences.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SpaceVikingsGUI/obj/Debug/DesignTimeResolveAssemblyReferencesInput.cache" beforeDir="false" afterPath="$PROJECT_DIR$/SpaceVikingsGUI/obj/Debug/DesignTimeResolveAssemblyReferencesInput.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SpaceVikingsGUI/obj/Debug/MainWindow.g.cs" beforeDir="false" afterPath="$PROJECT_DIR$/SpaceVikingsGUI/obj/Debug/MainWindow.g.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SpaceVikingsGUI/obj/Debug/MainWindow.g.i.cs" beforeDir="false" afterPath="$PROJECT_DIR$/SpaceVikingsGUI/obj/Debug/MainWindow.g.i.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SpaceVikingsGUI/obj/Debug/SpaceVikingsGUI.csproj.CoreCompileInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/SpaceVikingsGUI/obj/Debug/SpaceVikingsGUI.csproj.CoreCompileInputs.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SpaceVikingsGUI/obj/Debug/SpaceVikingsGUI.csproj.FileListAbsolute.txt" beforeDir="false" afterPath="$PROJECT_DIR$/SpaceVikingsGUI/obj/Debug/SpaceVikingsGUI.csproj.FileListAbsolute.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SpaceVikingsGUI/obj/Debug/SpaceVikingsGUI.csproj.GenerateResource.cache" beforeDir="false" afterPath="$PROJECT_DIR$/SpaceVikingsGUI/obj/Debug/SpaceVikingsGUI.csproj.GenerateResource.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SpaceVikingsGUI/obj/Debug/SpaceVikingsGUI.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/SpaceVikingsGUI/obj/Debug/SpaceVikingsGUI.csprojAssemblyReference.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SpaceVikingsGUI/obj/Debug/SpaceVikingsGUI.exe" beforeDir="false" afterPath="$PROJECT_DIR$/SpaceVikingsGUI/obj/Debug/SpaceVikingsGUI.exe" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SpaceVikingsGUI/obj/Debug/SpaceVikingsGUI.g.resources" beforeDir="false" afterPath="$PROJECT_DIR$/SpaceVikingsGUI/obj/Debug/SpaceVikingsGUI.g.resources" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SpaceVikingsGUI/obj/Debug/SpaceVikingsGUI.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/SpaceVikingsGUI/obj/Debug/SpaceVikingsGUI.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SpaceVikingsGUI/obj/Debug/SpaceVikingsGUI_MarkupCompile.cache" beforeDir="false" afterPath="$PROJECT_DIR$/SpaceVikingsGUI/obj/Debug/SpaceVikingsGUI_MarkupCompile.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SpaceVikingsGUI/obj/Debug/SpaceVikingsGUI_MarkupCompile.lref" beforeDir="false" afterPath="$PROJECT_DIR$/SpaceVikingsGUI/obj/Debug/SpaceVikingsGUI_MarkupCompile.lref" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SpaceVikingsGUI/obj/Debug/Views/InventoryView.g.cs" beforeDir="false" afterPath="$PROJECT_DIR$/SpaceVikingsGUI/obj/Debug/Views/InventoryView.g.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SpaceVikingsGUI/obj/Debug/Views/InventoryView.g.i.cs" beforeDir="false" afterPath="$PROJECT_DIR$/SpaceVikingsGUI/obj/Debug/Views/InventoryView.g.i.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SpaceVikingsGUI/obj/Debug/Views/LoginView.g.cs" beforeDir="false" afterPath="$PROJECT_DIR$/SpaceVikingsGUI/obj/Debug/Views/LoginView.g.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SpaceVikingsGUI/obj/Debug/Views/LoginView.g.i.cs" beforeDir="false" afterPath="$PROJECT_DIR$/SpaceVikingsGUI/obj/Debug/Views/LoginView.g.i.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SpaceVikingsGUI/obj/Debug/Views/MainView.g.cs" beforeDir="false" afterPath="$PROJECT_DIR$/SpaceVikingsGUI/obj/Debug/Views/MainView.g.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SpaceVikingsGUI/obj/Debug/Views/MainView.g.i.cs" beforeDir="false" afterPath="$PROJECT_DIR$/SpaceVikingsGUI/obj/Debug/Views/MainView.g.i.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SpaceVikingsGUI/obj/Debug/Views/StoreView.g.cs" beforeDir="false" afterPath="$PROJECT_DIR$/SpaceVikingsGUI/obj/Debug/Views/StoreView.g.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SpaceVikingsGUI/obj/Debug/Views/StoreView.g.i.cs" beforeDir="false" afterPath="$PROJECT_DIR$/SpaceVikingsGUI/obj/Debug/Views/StoreView.g.i.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SpaveVikingsGUI.test/SpaveVikingsGUI.test.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/SpaveVikingsGUI.test/SpaveVikingsGUI.test.csproj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SpaveVikingsGUI.test/UnitTest1.cs" beforeDir="false" afterPath="$PROJECT_DIR$/SpaveVikingsGUI.test/UnitTest1.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SpaveVikingsGUI.test/obj/Debug/netcoreapp2.2/SpaveVikingsGUI.test.assets.cache" beforeDir="false" afterPath="$PROJECT_DIR$/SpaveVikingsGUI.test/obj/Debug/netcoreapp2.2/SpaveVikingsGUI.test.assets.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SpaveVikingsGUI.test/obj/Debug/netcoreapp2.2/SpaveVikingsGUI.test.csproj.CoreCompileInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/SpaveVikingsGUI.test/obj/Debug/netcoreapp2.2/SpaveVikingsGUI.test.csproj.CoreCompileInputs.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SpaveVikingsGUI.test/obj/Debug/netcoreapp2.2/SpaveVikingsGUI.test.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/SpaveVikingsGUI.test/obj/Debug/netcoreapp2.2/SpaveVikingsGUI.test.csprojAssemblyReference.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SpaveVikingsGUI.test/obj/SpaveVikingsGUI.test.csproj.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/SpaveVikingsGUI.test/obj/SpaveVikingsGUI.test.csproj.nuget.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SpaveVikingsGUI.test/obj/SpaveVikingsGUI.test.csproj.nuget.g.props" beforeDir="false" afterPath="$PROJECT_DIR$/SpaveVikingsGUI.test/obj/SpaveVikingsGUI.test.csproj.nuget.g.props" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SpaveVikingsGUI.test/obj/SpaveVikingsGUI.test.csproj.nuget.g.targets" beforeDir="false" afterPath="$PROJECT_DIR$/SpaveVikingsGUI.test/obj/SpaveVikingsGUI.test.csproj.nuget.g.targets" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SpaveVikingsGUI.test/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/SpaveVikingsGUI.test/obj/project.assets.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SpaveVikingsGUI.test/obj/project.packagespec.json" beforeDir="false" afterPath="$PROJECT_DIR$/SpaveVikingsGUI.test/obj/project.packagespec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpaceVikingsGUI.sln" beforeDir="false" afterPath="$PROJECT_DIR$/SpaceVikingsGUI.sln" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpaceVikingsGUI.sln.DotSettings.user" beforeDir="false" afterPath="$PROJECT_DIR$/SpaceVikingsGUI.sln.DotSettings.user" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -63,14 +18,13 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/SpaveVikingsGUI.test/UnitTest1.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="400">
-              <caret line="31" column="8" lean-forward="true" selection-start-line="31" selection-start-column="8" selection-end-line="31" selection-end-column="8" />
+            <state relative-caret-position="279">
+              <caret line="26" column="32" selection-start-line="26" selection-start-column="32" selection-end-line="26" selection-end-column="32" />
               <folding>
-                <marker date="1557828001443" expanded="true" signature="31:312" ph="..." />
-                <marker date="1557828001443" expanded="true" signature="329:1077" ph="{...}" />
-                <marker date="1557828001443" expanded="true" signature="358:1075" ph="{...}" />
-                <marker date="1557828001443" expanded="true" signature="416:1049" ph="{...}" />
-                <marker date="1557828001443" expanded="true" signature="862:961" ph="/* pass.BulkText = &quot;string&quot;; ... */" />
+                <marker date="1557828175166" expanded="true" signature="31:312" ph="..." />
+                <marker date="1557828175166" expanded="true" signature="329:1055" ph="{...}" />
+                <marker date="1557828175166" expanded="true" signature="358:1053" ph="{...}" />
+                <marker date="1557828175166" expanded="true" signature="416:1027" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -142,7 +96,7 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="file://$PROJECT_DIR$/SpaveVikingsGUI.test/UnitTest1.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/SpaveVikingsGUI.test/UnitTest1.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/SpaceVikingsGUI/Views/LoginView.xaml" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/SpaceVikingsGUI/Views/MainView.xaml" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$USER_HOME$/gameDev/selda/zelda/Assets/Scripts/ScriptableObjects/FloatValue.cs" root0="SKIP_HIGHLIGHTING" />
@@ -234,12 +188,12 @@
       <option name="presentableId" value="Default" />
       <updated>1557821985924</updated>
       <workItem from="1557821992211" duration="2054000" />
-      <workItem from="1557825194644" duration="2715000" />
+      <workItem from="1557825194644" duration="3948000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="4769000" />
+    <option name="totallyTimeSpent" value="6002000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -251,10 +205,9 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="7" />
-    <editor active="true" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25266525" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25266525" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -270,7 +223,7 @@
       <window_info anchor="bottom" id="Version Control" order="10" />
       <window_info anchor="bottom" id="Database Changes" order="11" />
       <window_info anchor="bottom" id="XAML Preview" order="12" />
-      <window_info active="true" anchor="bottom" id="Unit Tests" order="13" visible="true" weight="0.32942432" />
+      <window_info anchor="bottom" id="Unit Tests" order="13" visible="true" weight="0.32942432" />
       <window_info anchor="bottom" id="Terminal" order="14" />
       <window_info anchor="bottom" id="Event Log" order="15" side_tool="true" />
       <window_info anchor="bottom" id="Build" order="16" weight="0.32942432" />
@@ -365,14 +318,13 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/SpaveVikingsGUI.test/UnitTest1.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="400">
-          <caret line="31" column="8" lean-forward="true" selection-start-line="31" selection-start-column="8" selection-end-line="31" selection-end-column="8" />
+        <state relative-caret-position="279">
+          <caret line="26" column="32" selection-start-line="26" selection-start-column="32" selection-end-line="26" selection-end-column="32" />
           <folding>
-            <marker date="1557828001443" expanded="true" signature="31:312" ph="..." />
-            <marker date="1557828001443" expanded="true" signature="329:1077" ph="{...}" />
-            <marker date="1557828001443" expanded="true" signature="358:1075" ph="{...}" />
-            <marker date="1557828001443" expanded="true" signature="416:1049" ph="{...}" />
-            <marker date="1557828001443" expanded="true" signature="862:961" ph="/* pass.BulkText = &quot;string&quot;; ... */" />
+            <marker date="1557828175166" expanded="true" signature="31:312" ph="..." />
+            <marker date="1557828175166" expanded="true" signature="329:1055" ph="{...}" />
+            <marker date="1557828175166" expanded="true" signature="358:1053" ph="{...}" />
+            <marker date="1557828175166" expanded="true" signature="416:1027" ph="{...}" />
           </folding>
         </state>
       </provider>
