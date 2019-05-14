@@ -1,0 +1,17 @@
+D:\Skoli\Skoli\4.SEMESTER\PRJ4\GUI_V2\SpaceVikingsGUI\SpaveVikingsGUI.test\bin\Debug\netcoreapp2.2\NUnit3.TestAdapter.dll
+D:\Skoli\Skoli\4.SEMESTER\PRJ4\GUI_V2\SpaceVikingsGUI\SpaveVikingsGUI.test\bin\Debug\netcoreapp2.2\NUnit3.TestAdapter.pdb
+D:\Skoli\Skoli\4.SEMESTER\PRJ4\GUI_V2\SpaceVikingsGUI\SpaveVikingsGUI.test\bin\Debug\netcoreapp2.2\nunit.engine.netstandard.dll
+D:\Skoli\Skoli\4.SEMESTER\PRJ4\GUI_V2\SpaceVikingsGUI\SpaveVikingsGUI.test\bin\Debug\netcoreapp2.2\xunit.runner.visualstudio.dotnetcore.testadapter.dll
+D:\Skoli\Skoli\4.SEMESTER\PRJ4\GUI_V2\SpaceVikingsGUI\SpaveVikingsGUI.test\bin\Debug\netcoreapp2.2\xunit.runner.reporters.netcoreapp10.dll
+D:\Skoli\Skoli\4.SEMESTER\PRJ4\GUI_V2\SpaceVikingsGUI\SpaveVikingsGUI.test\bin\Debug\netcoreapp2.2\xunit.runner.utility.netcoreapp10.dll
+D:\Skoli\Skoli\4.SEMESTER\PRJ4\GUI_V2\SpaceVikingsGUI\SpaveVikingsGUI.test\bin\Debug\netcoreapp2.2\SpaveVikingsGUI.test.deps.json
+D:\Skoli\Skoli\4.SEMESTER\PRJ4\GUI_V2\SpaceVikingsGUI\SpaveVikingsGUI.test\bin\Debug\netcoreapp2.2\SpaveVikingsGUI.test.runtimeconfig.json
+D:\Skoli\Skoli\4.SEMESTER\PRJ4\GUI_V2\SpaceVikingsGUI\SpaveVikingsGUI.test\bin\Debug\netcoreapp2.2\SpaveVikingsGUI.test.runtimeconfig.dev.json
+D:\Skoli\Skoli\4.SEMESTER\PRJ4\GUI_V2\SpaceVikingsGUI\SpaveVikingsGUI.test\bin\Debug\netcoreapp2.2\SpaveVikingsGUI.test.dll
+D:\Skoli\Skoli\4.SEMESTER\PRJ4\GUI_V2\SpaceVikingsGUI\SpaveVikingsGUI.test\bin\Debug\netcoreapp2.2\SpaveVikingsGUI.test.pdb
+D:\Skoli\Skoli\4.SEMESTER\PRJ4\GUI_V2\SpaceVikingsGUI\SpaveVikingsGUI.test\obj\Debug\netcoreapp2.2\SpaveVikingsGUI.test.csprojAssemblyReference.cache
+D:\Skoli\Skoli\4.SEMESTER\PRJ4\GUI_V2\SpaceVikingsGUI\SpaveVikingsGUI.test\obj\Debug\netcoreapp2.2\SpaveVikingsGUI.test.csproj.CoreCompileInputs.cache
+D:\Skoli\Skoli\4.SEMESTER\PRJ4\GUI_V2\SpaceVikingsGUI\SpaveVikingsGUI.test\obj\Debug\netcoreapp2.2\SpaveVikingsGUI.test.AssemblyInfoInputs.cache
+D:\Skoli\Skoli\4.SEMESTER\PRJ4\GUI_V2\SpaceVikingsGUI\SpaveVikingsGUI.test\obj\Debug\netcoreapp2.2\SpaveVikingsGUI.test.AssemblyInfo.cs
+D:\Skoli\Skoli\4.SEMESTER\PRJ4\GUI_V2\SpaceVikingsGUI\SpaveVikingsGUI.test\obj\Debug\netcoreapp2.2\SpaveVikingsGUI.test.dll
+D:\Skoli\Skoli\4.SEMESTER\PRJ4\GUI_V2\SpaceVikingsGUI\SpaveVikingsGUI.test\obj\Debug\netcoreapp2.2\SpaveVikingsGUI.test.pdb

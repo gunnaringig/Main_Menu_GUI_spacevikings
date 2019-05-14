@@ -16,3 +16,9 @@ C:\Users\Nano\source\Main_Menu_GUI_spacevikings\SpaceVikingsGUI\SpaceVikingsGUI.
 C:\Users\Nano\source\Main_Menu_GUI_spacevikings\SpaceVikingsGUI\SpaceVikingsGUI.Data\obj\Debug\SpaceVikingsGUI.Data.csproj.CoreCompileInputs.cache
 C:\Users\Nano\source\Main_Menu_GUI_spacevikings\SpaceVikingsGUI\SpaceVikingsGUI.Data\obj\Debug\SpaceVikingsGUI.Data.dll
 C:\Users\Nano\source\Main_Menu_GUI_spacevikings\SpaceVikingsGUI\SpaceVikingsGUI.Data\obj\Debug\SpaceVikingsGUI.Data.pdb
+D:\Skoli\Skoli\4.SEMESTER\PRJ4\GUI_V2\SpaceVikingsGUI\SpaceVikingsGUI.Data\bin\Debug\SpaceVikingsGUI.Data.dll
+D:\Skoli\Skoli\4.SEMESTER\PRJ4\GUI_V2\SpaceVikingsGUI\SpaceVikingsGUI.Data\bin\Debug\SpaceVikingsGUI.Data.pdb
+D:\Skoli\Skoli\4.SEMESTER\PRJ4\GUI_V2\SpaceVikingsGUI\SpaceVikingsGUI.Data\obj\Debug\SpaceVikingsGUI.Data.csprojAssemblyReference.cache
+D:\Skoli\Skoli\4.SEMESTER\PRJ4\GUI_V2\SpaceVikingsGUI\SpaceVikingsGUI.Data\obj\Debug\SpaceVikingsGUI.Data.csproj.CoreCompileInputs.cache
+D:\Skoli\Skoli\4.SEMESTER\PRJ4\GUI_V2\SpaceVikingsGUI\SpaceVikingsGUI.Data\obj\Debug\SpaceVikingsGUI.Data.dll
+D:\Skoli\Skoli\4.SEMESTER\PRJ4\GUI_V2\SpaceVikingsGUI\SpaceVikingsGUI.Data\obj\Debug\SpaceVikingsGUI.Data.pdb

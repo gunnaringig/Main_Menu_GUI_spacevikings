@@ -44,9 +44,21 @@
           "target": "Package",
           "version": "[3.11.0, )"
         },
+        "TestStack.White": {
+          "target": "Package",
+          "version": "[0.13.3, )"
+        },
         "nunit": {
           "target": "Package",
           "version": "[3.11.0, )"
+        },
+        "xunit.core": {
+          "target": "Package",
+          "version": "[2.4.1, )"
+        },
+        "xunit.runner.visualstudio": {
+          "target": "Package",
+          "version": "[2.4.1, )"
         }
       },
       "imports": [

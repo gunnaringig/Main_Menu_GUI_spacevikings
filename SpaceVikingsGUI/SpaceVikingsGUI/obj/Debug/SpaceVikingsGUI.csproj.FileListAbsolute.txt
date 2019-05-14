@@ -243,3 +243,8 @@ C:\Users\Blank\Desktop\Ny mappe\Main_Menu_GUI_spacevikings\SpaceVikingsGUI\Space
 C:\Users\Blank\Desktop\Ny mappe\Main_Menu_GUI_spacevikings\SpaceVikingsGUI\SpaceVikingsGUI\bin\Debug\BifrostLib.pdb
 C:\Users\Blank\Desktop\Ny mappe\Main_Menu_GUI_spacevikings\SpaceVikingsGUI\SpaceVikingsGUI\bin\Debug\GameEngine.pdb
 C:\Users\Blank\Desktop\Ny mappe\Main_Menu_GUI_spacevikings\SpaceVikingsGUI\SpaceVikingsGUI\obj\Debug\SpaceVikingsGUI_Content.g.cs
+D:\Skoli\Skoli\4.SEMESTER\PRJ4\GUI_V2\SpaceVikingsGUI\SpaceVikingsGUI\bin\Debug\BifrostLib.dll
+D:\Skoli\Skoli\4.SEMESTER\PRJ4\GUI_V2\SpaceVikingsGUI\SpaceVikingsGUI\bin\Debug\GameEngine.dll
+D:\Skoli\Skoli\4.SEMESTER\PRJ4\GUI_V2\SpaceVikingsGUI\SpaceVikingsGUI\bin\Debug\BifrostLib.pdb
+D:\Skoli\Skoli\4.SEMESTER\PRJ4\GUI_V2\SpaceVikingsGUI\SpaceVikingsGUI\bin\Debug\GameEngine.pdb
+D:\Skoli\Skoli\4.SEMESTER\PRJ4\GUI_V2\SpaceVikingsGUI\SpaceVikingsGUI\obj\Debug\SpaceVikingsGUI_Content.g.cs
