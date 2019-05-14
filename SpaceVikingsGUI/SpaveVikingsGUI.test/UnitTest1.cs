@@ -2,15 +2,16 @@ using NUnit.Framework;
 
 namespace Tests
 {
-    public class Tests
+    public class LoginTest
     {
         [SetUp]
         public void Setup()
         {
+            
         }
 
         [Test]
-        public void Test1()
+        public void AuthenicUser()
         {
             Assert.Pass();
         }
